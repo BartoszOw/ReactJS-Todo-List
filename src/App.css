@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.new-item-form label {
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+
+#item {
+  border-radius: 1rem;
+  padding: 0.2rem;
+  background-color: transparent;
+  border-color: #9b009b;
+}
+#item:hover {
+  border-color: #9b009b;
+}
+
+
+.list li{
+  list-style-type: none;
+  padding: 1.5rem;
+  border-bottom: 0.1rem solid black;
+}
+.list li label {
+  font-size: 1.1rem;
+}
+
+
+.btn {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  background-color: transparent;
+  padding: 0.6em 6em;
+  border-color: #0051ff;
+  color: #0051ff;
+}
+.btn:hover {
+  border-color: #2800b9;
+  color: #2800b9;
+}
+
+.btn-danger {
+  padding: 0.6em 1.2em;
+
+  border-color: red;
+  color: red;
+  background-color: transparent;
+}
+.btn-danger:hover {
+  border-color: #5e0000;
+  color: #5e0000;
+}
+
+
+
